@@ -1,0 +1,99 @@
+.carousel-containercc {
+  max-width: 1300px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+
+.carouselcc {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  overflow: hidden;
+}
+
+.carousel-slidecc {
+  flex: 0 0 20%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.cardcc {
+  background-color: #141414;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 10px;
+  height: 400px;
+}
+
+.cardcc img {
+  width: 100%;
+  height: auto;
+}
+
+.cardcc2{
+    background-color: #141414;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 10px;
+    height: 350px;
+}
+
+.cardcc2 img {
+    width: 100%;
+    height: auto;
+  }
+
+
+.heart-buttoncc {
+  background-color: transparent;
+  border: none;
+  font-size: 34px;
+  cursor: pointer;
+  color: white; /* Color inicial del corazón */
+  margin-top: 8px;
+}
+
+.heart-buttoncc.red {
+  color: red; /* Color cuando se hace clic */
+}
+
+.heart-buttoncc:focus {
+  outline: none;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+/* Estilos para los botones de navegación */
+.buttoncc {
+  margin-top: 10px;
+  padding: 58px 20px;
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.buttoncc:focus {
+  outline: none;
+}
+
+#prevBtn {
+  position: absolute;
+  left: -45px;
+  top: 43%;
+  transform: translateY(-50%);
+}
+
+#nextBtn {
+  position: absolute;
+  right: -4%;
+  top: 42%;
+  transform: translateY(-50%);
+}
